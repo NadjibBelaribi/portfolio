@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.85f3c672.chunk.css",
+    "main.js": "/portfolio/static/js/main.4c61fb2d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4c61fb2d.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.7bdd33ea.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.7bdd33ea.js.map",
+    "static/js/2.dbb22879.chunk.js": "/portfolio/static/js/2.dbb22879.chunk.js",
+    "static/js/2.dbb22879.chunk.js.map": "/portfolio/static/js/2.dbb22879.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.adf54f56900e726f8810f374226fa42f.js": "/portfolio/precache-manifest.adf54f56900e726f8810f374226fa42f.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.85f3c672.chunk.css.map": "/portfolio/static/css/main.85f3c672.chunk.css.map",
+    "static/media/App.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/aircampus.png": "/portfolio/static/media/aircampus.24d06182.png",
+    "static/media/artex.png": "/portfolio/static/media/artex.06deb518.png",
+    "static/media/contact.png": "/portfolio/static/media/contact.377d6016.png",
+    "static/media/education.png": "/portfolio/static/media/education.6d02b21c.png",
+    "static/media/esi.png": "/portfolio/static/media/esi.752a6099.png",
+    "static/media/experience.png": "/portfolio/static/media/experience.fd836394.png",
+    "static/media/all.css": "/portfolio/static/media/fa-solid-900.8e4a6dcc.eot",
+    "static/media/gdg.png": "/portfolio/static/media/gdg.66529b5a.png",
+    "static/media/github_logo.png": "/portfolio/static/media/github_logo.6eeb2e81.png",
+    "static/media/home.png": "/portfolio/static/media/home.be04a014.png",
+    "static/media/logo.png": "/portfolio/static/media/logo.fbd72b83.png",
+    "static/media/unistra.png": "/portfolio/static/media/unistra.e499d97b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7bdd33ea.js",
+    "static/js/2.dbb22879.chunk.js",
+    "static/css/main.85f3c672.chunk.css",
+    "static/js/main.4c61fb2d.chunk.js"
+  ]
+}
