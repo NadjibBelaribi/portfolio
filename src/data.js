@@ -272,7 +272,7 @@ const experience = {
           duration: "April 2021 - Now",
           location: "Paris, France",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "I work on an apollo nodejs api gateway, im responsible mainly on developing a subservice, adding features, testing and improving CI/CD pipeline with Docker and Kubernetes. I also developed an educational website in react typescript along with snapshots tests. I do scripting in JS/Bash and web scrapping using Puppeteer. I also handle some AWS services such as DynamoDB, S3 And Redis.",
           color: "#0879bf",
         },
         {
@@ -291,7 +291,7 @@ const experience = {
           company: "GDG",
           company_url: "https://gdg.community.dev/",
           logo_path: "gdg.png",
-          duration: "October 2017 - Mai 2017",
+          duration: "October 2017 - June 2018",
           description:
             "I worked on the website interface and tried to make it easier to interact with the user. I acquired skills in working in groups and developed a passion for producing high-quality software. I also worked on solving algorithms problems on websites like hackerRank and codeChef to improve my problem analysis and coding.",
           color: "#fc1f20",
