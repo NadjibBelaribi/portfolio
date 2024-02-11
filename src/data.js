@@ -32,6 +32,7 @@ const skills = {
         "♟ Mastery of HTML, CSS, React tools and extensions",
         "♟ Build responsive and fast websites",
         "♟ Testing applications with tools like JEST",
+        "♟ Web scrapping scripts",
       ],
       softwareSkills: [
         {
@@ -81,6 +82,13 @@ const skills = {
           fontAwesomeClassname: "fa-css3",
           style: {
             color: "#1572B6",
+          },
+        },
+        {
+          skillName: "PUPPETEER",
+          fontAwesomeClassname: "simple-icons:puppeteer",
+          style: {
+            color: "#339933",
           },
         },
       ],
@@ -275,7 +283,7 @@ const experience = {
           duration: "September 2020 - December 2020",
           location: "Strasbourg, France",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "I started by working on resolving daily front and back tickets, it involves fixing bugs, broken tests and optimizing code. I helped in designing a new data model and migrating our database to it. I also worked on improving ID cards text recognition, I used AWS Textract to extract essential informations to fill user data and help its subscription.",
           color: "#9b1578",
         },
         {
@@ -285,7 +293,7 @@ const experience = {
           logo_path: "gdg.png",
           duration: "October 2017 - Mai 2017",
           description:
-            "I worked on the website interface and tried to make it easier to interact with the user. I also acquired skills in working in groups and developed a passion for producing high-quality software. I also worked on solving algorithms problems on websites like hackerRank and codeChef to improve my problem analysis and coding.",
+            "I worked on the website interface and tried to make it easier to interact with the user. I acquired skills in working in groups and developed a passion for producing high-quality software. I also worked on solving algorithms problems on websites like hackerRank and codeChef to improve my problem analysis and coding.",
           color: "#fc1f20",
         },
       ],
