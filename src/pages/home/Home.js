@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
-import Greeting from "../../containers/greeting/Greeting";
+import Welcome from "../../containers/welcome/Welcome";
 import Skills from "../../containers/skills/Skills";
-import TopButton from "../../components/topButton/TopButton";
 
 class Home extends Component {
   render() {
     return (
       <div id="home">
         <Header theme={this.props.theme} />
-        <Greeting theme={this.props.theme} />
+        <Welcome theme={this.props.theme} />
         <Skills theme={this.props.theme} />
       </div>
     );

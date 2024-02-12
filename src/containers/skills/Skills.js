@@ -13,21 +13,21 @@ class SkillSection extends Component {
           return (
             <div key={i} className="skills-main-div">
               <div className="skills-text-div">
-                <Fade right={i % 2 == 0} duration={1000}>
+                <Fade right={i % 2 === 0} duration={1000}>
                   <h1 className="skills-heading" style={{ color: theme.text }}>
                     {skill.title}
                   </h1>
                 </Fade>
-                <Fade right={i % 2 == 0} duration={1500}>
+                <Fade right={i % 2 === 0} duration={1500}>
                   <SoftwareSkill logos={skill.softwareSkills} />
                 </Fade>
-                <Fade right={i % 2 == 0} duration={2000}>
+                <Fade right={i % 2 === 0} duration={2000}>
                   <div>
                     {skill.skills.map((skillSentence, i) => {
                       return (
                         <p
                           key={i}
-                          className="subTitle skills-text"
+                          className="description skills-text"
                           style={{ color: theme.secondaryText }}
                         >
                           {skillSentence}

@@ -17,75 +17,75 @@
   margin: 0px auto;
 }
 
-.greeting-main {
+.welcome-main {
   display: flex;
 }
 
-.greeting-main > * {
+.welcome-main > * {
   flex: 1;
   margin-bottom: 30px;
 }
-.button-greeting-div {
+.button-welcome-div {
   display: flex;
   margin-top: 20px;
 }
 
-.greeting-text {
+.welcome-text {
   margin-top: 80px;
   font-size: 70px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
 }
 
-.greeting-text-p {
+.welcome-text-p {
   font-size: 40px;
   line-height: 40px;
   margin-right: 40px;
   font-family: "Google Sans Medium";
 }
 
-.greeting-image-div > * {
+.welcome-image-div > * {
   max-width: 100%;
   height: auto;
   text-align: center;
 }
 
-.greeting-image-div {
+.welcome-image-div {
   text-align: center;
 }
 
 /* Media Query */
 @media (max-width: 1380px) {
-  .greeting-text {
+  .welcome-text {
     font-size: 50px;
   }
-  .greeting-text-p {
+  .welcome-text-p {
     font-size: 20px;
   }
 }
 @media (max-width: 768px) {
-  .button-greeting-div {
+  .button-welcome-div {
     justify-content: space-around;
   }
-  .greeting-text {
+  .welcome-text {
     font-size: 30px;
     margin-top: 0px;
     text-align: center;
   }
-  .greeting-nickname {
+  .welcome-subtitle {
     font-size: 15px;
     text-align: center;
     line-height: 0px;
     font-style: italic;
     font-family: "Google Sans Bold Italic";
   }
-  .greeting-text-p {
+  .welcome-text-p {
     font-size: 16px;
     margin-right: 0px;
     line-height: normal;
     text-align: center;
   }
-  .greeting-main {
+  .welcome-main {
     display: block;
   }
 

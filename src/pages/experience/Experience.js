@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
+import Experiences from "../../containers/experiences/Experiences.js";
 import "./Experience.css";
 import { experience } from "../../data.js";
 import { Fade } from "react-reveal";
@@ -21,10 +21,7 @@ class Experience extends Component {
                   alt=""
                 />
               </div>
-              <ExperienceAccordion
-                sections={experience["sections"]}
-                theme={theme}
-              />
+              <Experiences sections={experience["sections"]} theme={theme} />
             </div>
           </Fade>
         </div>

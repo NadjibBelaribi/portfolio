@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import ExperienceCard from "../../components/experienceCard/ExperienceCard.js";
-import "./ExperienceAccordion.css";
-import { Accordion, Panel } from "baseui/accordion";
+import "./Experiences.css";
 
-class ExperienceAccordion extends Component {
+class Experiences extends Component {
   render() {
     const theme = this.props.theme;
     return (
@@ -31,4 +30,4 @@ class ExperienceAccordion extends Component {
   }
 }
 
-export default ExperienceAccordion;
+export default Experiences;

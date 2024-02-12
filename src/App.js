@@ -1,12 +1,13 @@
 import "./App.css";
 import { ThemeProvider } from "styled-components";
-import React, { Component } from "react";
-import Home from "./pages/home/HomeComponent";
-import Education from "./pages/education/EducationComponent";
+import React from "react";
+import Home from "./pages/home/Home";
+import Education from "./pages/education/Education";
 import Experience from "./pages/experience/Experience";
-import Contact from "./pages/contact/ContactComponent";
+import Contact from "./pages/contact/Contact";
 import TopButton from "./components/topButton/TopButton";
 import { createGlobalStyle } from "styled-components";
+import "./assets/font-awesome/css/all.css";
 
 const theme = {
   body: "#FFFEFD",

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Educations from "../../containers/education/Educations";
-import "./EducationComponent.css";
+import "./Education.css";
 import { Fade } from "react-reveal";
 
 class Education extends Component {
@@ -11,7 +11,7 @@ class Education extends Component {
         <div className="basic-education">
           <Fade bottom duration={2000} distance="40px">
             <h1 className="educations-header" style={{ color: theme.text }}>
-              Degrees Received
+              Diplomas
             </h1>
             <div className="heading-div">
               <div className="heading-img-div">

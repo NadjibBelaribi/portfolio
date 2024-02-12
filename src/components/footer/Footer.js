@@ -1,15 +1,14 @@
 import React from "react";
 import "./Footer.css";
 import { Fade } from "react-reveal";
-import { greeting } from "../../data.js";
-/* eslint-disable jsx-a11y/accessible-emoji */
+import { welcome } from "../../data.js";
 
 export default function Footer(props) {
   return (
     <div className="footer-div">
       <Fade>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          Made by {greeting.title}
+          Made by {welcome.title}
         </p>
       </Fade>
     </div>

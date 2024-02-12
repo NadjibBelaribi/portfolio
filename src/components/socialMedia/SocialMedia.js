@@ -1,6 +1,6 @@
 import React from "react";
 import "./SocialMedia.css";
-import { socialMediaLinks } from "../../data";
+import { socialMedias } from "../../data";
 import styled from "styled-components";
 
 const IconWrapper = styled.span`
@@ -16,7 +16,7 @@ const IconWrapper = styled.span`
 export default function socialMedia(props) {
   return (
     <div className="social-media-div">
-      {socialMediaLinks.map((media, i) => {
+      {socialMedias.map((media, i) => {
         return (
           <a
             key={i}
@@ -28,7 +28,6 @@ export default function socialMedia(props) {
             <IconWrapper {...media} {...props}>
               <i className={`fab ${media.fontAwesomeIcon}`}></i>
             </IconWrapper>
-            {/* <span></span> */}
           </a>
         );
       })}

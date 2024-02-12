@@ -1,28 +1,12 @@
-//Home Page
-const greeting = {
+const welcome = {
   title: "Nadjib Belaribi",
-  nickname: "Software Engineer | Full-Stack Developer",
-  subTitle:
+  subtitle: "Software Engineer | Full-Stack Developer",
+  description:
     " A 25 year old boy, passionate about software and latest technologies. I enjoy building sustainable and scalable systems, optimal and responsive websites.",
   resumeLink:
     "https://drive.google.com/file/d/1n5gIycYUmkaQ76MEdsE11MU3wcs2PICg/view?usp=sharing",
   githubProfile: "https://github.com/NadjibBelaribi",
 };
-
-const socialMediaLinks = [
-  {
-    name: "Github",
-    link: "https://github.com/NadjibBelaribi",
-    fontAwesomeIcon: "fa-github",
-    backgroundColor: "#181717",
-  },
-  {
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/nadjib-belaribi-ba898b13a/",
-    fontAwesomeIcon: "fa-linkedin-in",
-    backgroundColor: "#0077B5",
-  },
-];
 
 const skills = {
   data: [
@@ -222,8 +206,8 @@ const skills = {
   ],
 };
 
-const degrees = {
-  degrees: [
+const diplomas = {
+  diplomas: [
     {
       title: "University Of Strasbourg",
       subtitle: "Software Science and Engineering",
@@ -301,21 +285,27 @@ const experience = {
   ],
 };
 
-// Contact Page
-const contactPageData = {
+const contactData = {
   contactSection: {
     title: "Contact",
-    profile_image_path: "contact.png",
     description:
       "I can be reached on linkedin as well as by email or telephone on my CV below. Im always available to listen to new opportunities.",
   },
 };
 
-export {
-  greeting,
-  socialMediaLinks,
-  skills,
-  degrees,
-  experience,
-  contactPageData,
-};
+const socialMedias = [
+  {
+    name: "Github",
+    link: "https://github.com/NadjibBelaribi",
+    fontAwesomeIcon: "fa-github",
+    backgroundColor: "#181717",
+  },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/nadjib-belaribi-ba898b13a/",
+    fontAwesomeIcon: "fa-linkedin-in",
+    backgroundColor: "#0077B5",
+  },
+];
+
+export { welcome, socialMedias, skills, diplomas, experience, contactData };

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
-import { greeting } from "../../data.js";
 
 class Header extends Component {
   render() {
@@ -12,7 +11,7 @@ class Header extends Component {
           <header className="header">
             <a href="#home" className="logo">
               <span className="logo-name" style={{ color: theme.text }}>
-                <img src={require("../../assets/images/logo.png")} />
+                <img src={require("../../assets/images/logo.png")} alt="logo" />
               </span>
             </a>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
