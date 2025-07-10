@@ -2,7 +2,7 @@ const welcome = {
   title: "Nadjib Belaribi",
   subtitle: "Software Engineer | Full-Stack Developer",
   description:
-    " A 25 year old boy, passionate about software and latest technologies. I enjoy building sustainable and scalable systems, optimal and responsive websites.",
+    " A 27 year old boy, passionate about software and latest technologies. I enjoy building sustainable and scalable systems, optimal and responsive websites.",
   resumeLink:
     "https://drive.google.com/file/d/1n5gIycYUmkaQ76MEdsE11MU3wcs2PICg/view?usp=sharing",
   githubProfile: "https://github.com/NadjibBelaribi",
